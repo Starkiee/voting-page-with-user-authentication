@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login / Register</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap">
+</head>
+<body>
+    <div class="center">
+        <div class="btns">
+            <button onclick="toggleForm('login-form')">Login</button>
+            <button onclick="toggleForm('register-form')">Register</button>
+        </div>
+    
+        <div class="form-container">
+            <form id="login-form">
+                <h2>Login</h2>
+                <div class="uname">
+                    <label for="username">Username:</label>
+                    <input type="text" id="login-username" name="username" required>
+                </div>
+    
+                <div class="pword">
+                    <label for="password">Password:</label>
+                    <input type="password" id="login-password" name="password" required>
+                </div>
+    
+                <input class="logbtn" type="button" value="Login" onclick="login()">
+            </form>
+    
+            <form id="register-form" class="register-form">
+                <h2>Register</h2>
+                <div class="uname">
+                    <label for="register-username">Username:</label>
+                    <input type="text" id="register-username" name="username" required>
+                </div>
+    
+                <div class="pword">
+                    <label for="register-password">Password:</label>
+                    <input type="password" id="register-password" name="password" required>
+                </div>
+    
+                <input class="regbtn" type="button" value="Register" onclick="register()">
+            </form>
+        </div>
+    </div>
+    
+    <script src="js/app.js"></script>
+</body>
+</html>

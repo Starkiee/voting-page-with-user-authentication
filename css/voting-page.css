@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #081B33;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #f0f0f0;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #f0f0f0;
+}
+
+.vote-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.img-order {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100vw;
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 0.5px solid #f0f0f0;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.img h3 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #f0f0f0;
+}
+
+.img img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.progressbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #0066CD;
+}
+
+.btns {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    padding: 0 2px;
+    color: #8B0000;
+    background-color: #767D92;
+    border-radius: 4px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #081B33;
+    color: #f0f0f0;
+}
+
+.profile-btn img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.username {
+    margin-left: 10px;
+}
+
+.logout-btn {
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: transform 0.3s, background-color 0.3s;
+    color: #f0f0f0;
+    background-color: midnightblue;
+}
+
+.logout-btn:hover {
+    transform: scale(1.2);
+    background-color: #4CAF50;
+}
+
+.logout-btn:active {
+    background-color: #F0F0F0;
+    color: #000000;
+}
